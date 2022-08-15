@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+#<<<<<<< HEAD
 # This file must be used with "source bin/activate" *from bash*
 # you cannot run it directly
 
@@ -138,4 +138,4 @@ fi
 if [ -n "${BASH:-}" -o -n "${ZSH_VERSION:-}" ] ; then
     hash -r 2> /dev/null
 fi
->>>>>>> 4de99520aaca5ce9858b6ccccf54e43e7a3f3949
+#>>>>>>> 4de99520aaca5ce9858b6ccccf54e43e7a3f3949

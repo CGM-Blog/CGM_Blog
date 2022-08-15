@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+#<<<<<<< HEAD
 """
 WSGI config for cgmblog project.
 
@@ -15,7 +15,7 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'cgmblog.settings')
 
 application = get_wsgi_application()
-=======
+#=======
 """
 WSGI config for cgmblog project.
 
@@ -32,4 +32,4 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'cgmblog.settings')
 
 application = get_wsgi_application()
->>>>>>> 4de99520aaca5ce9858b6ccccf54e43e7a3f3949
+#>>>>>>> 4de99520aaca5ce9858b6ccccf54e43e7a3f3949

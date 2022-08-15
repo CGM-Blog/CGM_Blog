@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+#<<<<<<< HEAD
 """
 Django settings for cgmblog project.
 
@@ -122,7 +122,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-=======
+#=======
 """
 Django settings for cgmblog project.
 
@@ -246,4 +246,4 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
->>>>>>> 4de99520aaca5ce9858b6ccccf54e43e7a3f3949
+#>>>>>>> 4de99520aaca5ce9858b6ccccf54e43e7a3f3949
