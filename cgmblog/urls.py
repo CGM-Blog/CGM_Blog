@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 #<<<<<<< HEAD
+=======
+>>>>>>> 9782ec403c62ef4c29eda758400b4c33d2033596
 """cgmblog URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -20,6 +23,7 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+<<<<<<< HEAD
 #=======
 """cgmblog URL Configuration
 
@@ -43,3 +47,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 ]
 #>>>>>>> 4de99520aaca5ce9858b6ccccf54e43e7a3f3949
+=======
+>>>>>>> 9782ec403c62ef4c29eda758400b4c33d2033596

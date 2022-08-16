@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9782ec403c62ef4c29eda758400b4c33d2033596
 <#
 .Synopsis
 Activate a Python virtual environment for the current PowerShell session.
@@ -419,6 +422,7 @@ $Env:PATH = "$VenvExecDir$([System.IO.Path]::PathSeparator)$Env:PATH"
 # 1Uir2Pea4OE5jneMOvHAg29Nsh2GzUjPeKqHw4Dkv1ED0+3jbxOd5iGBi8ZXn9Us
 # mhxC+BxAf/7oN9038H/22cT9ec1QUce7UapZaDZlGO1uhFNzHR/RTpn62Ol4iWM=
 # SIG # End signature block
+<<<<<<< HEAD
 =======
 <#
 .Synopsis
@@ -841,3 +845,5 @@ $Env:PATH = "$VenvExecDir$([System.IO.Path]::PathSeparator)$Env:PATH"
 # mhxC+BxAf/7oN9038H/22cT9ec1QUce7UapZaDZlGO1uhFNzHR/RTpn62Ol4iWM=
 # SIG # End signature block
 >>>>>>> 4de99520aaca5ce9858b6ccccf54e43e7a3f3949
+=======
+>>>>>>> 9782ec403c62ef4c29eda758400b4c33d2033596

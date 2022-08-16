@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 @echo off
 
 rem This file is UTF-8 encoded, so we need to update the current code page while executing it
@@ -34,6 +35,8 @@ if defined _OLD_CODEPAGE (
     set _OLD_CODEPAGE=
 )
 =======
+=======
+>>>>>>> 9782ec403c62ef4c29eda758400b4c33d2033596
 @echo off
 
 rem This file is UTF-8 encoded, so we need to update the current code page while executing it
@@ -68,4 +71,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" %_OLD_CODEPAGE% > nul
     set _OLD_CODEPAGE=
 )
+<<<<<<< HEAD
 >>>>>>> 4de99520aaca5ce9858b6ccccf54e43e7a3f3949
+=======
+>>>>>>> 9782ec403c62ef4c29eda758400b4c33d2033596
