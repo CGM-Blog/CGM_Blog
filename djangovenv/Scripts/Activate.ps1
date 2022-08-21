@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 9782ec403c62ef4c29eda758400b4c33d2033596
+
 <#
 .Synopsis
 Activate a Python virtual environment for the current PowerShell session.

@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-#<<<<<<< HEAD
+
 """
 Django settings for cgmblog project.
 
@@ -39,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Posts',
 ]
 
 MIDDLEWARE = [
@@ -123,9 +123,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-#=======
-=======
->>>>>>> 9782ec403c62ef4c29eda758400b4c33d2033596
+
 """
 Django settings for cgmblog project.
 
@@ -165,6 +163,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'posts',
 ]
 
 MIDDLEWARE = [
@@ -245,11 +244,10 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+CRISPY_TEMPLATE_PACK = "bootstrap4"
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-<<<<<<< HEAD
-#>>>>>>> 4de99520aaca5ce9858b6ccccf54e43e7a3f3949
-=======
->>>>>>> 9782ec403c62ef4c29eda758400b4c33d2033596
+
