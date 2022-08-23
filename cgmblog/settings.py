@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #<<<<<<< HEAD
 """
 Django settings for cgmblog project.
@@ -124,8 +124,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 #=======
-=======
->>>>>>> 9782ec403c62ef4c29eda758400b4c33d2033596
+
 """
 Django settings for cgmblog project.
 
@@ -165,7 +164,18 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
+    'allauth',
+    'posts',
+    'login',
+
+    'allauth.account',
+    'allauth.socialaccount',
 ]
+
+SITE_ID = 1
+
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -249,7 +259,29 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-<<<<<<< HEAD
-#>>>>>>> 4de99520aaca5ce9858b6ccccf54e43e7a3f3949
-=======
->>>>>>> 9782ec403c62ef4c29eda758400b4c33d2033596
+
+# Auth Settings
+
+AUTH_USER_MODEL = 'login.User'
+
+AUTHENTICATION_BACKENDS = [
+    
+    # Needed to login by username in Django admin, regardless of `allauth`
+    'django.contrib.auth.backends.ModelBackend',
+
+    # `allauth` specific authentication methods, such as login by e-mail
+    'allauth.account.auth_backends.AuthenticationBackend',
+]
+
+ACCOUNT_SIGNUP_REDIRECT_URL = "main"
+LOGIN_REDIRECT_URL = "main"
+ACCOUNT_LOGOUT_ON_GET = True
+ACCOUNT_AUTHENTICATION_METHOD = "email"
+ACCOUNT_EMAIL_REQUIRED = True
+ACCOUNT_USERNAME_REQUIRED = False
+ACCOUNT_SESSION_REMEMBER = True
+
+# Email settings
+
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+
