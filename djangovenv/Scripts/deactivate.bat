@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 9782ec403c62ef4c29eda758400b4c33d2033596
+
 @echo off
 
 if defined _OLD_VIRTUAL_PROMPT (
@@ -24,8 +21,7 @@ set VIRTUAL_ENV=
 set VIRTUAL_ENV_PROMPT=
 
 :END
-<<<<<<< HEAD
-=======
+
 @echo off
 
 if defined _OLD_VIRTUAL_PROMPT (
@@ -48,6 +44,3 @@ set VIRTUAL_ENV=
 set VIRTUAL_ENV_PROMPT=
 
 :END
->>>>>>> 4de99520aaca5ce9858b6ccccf54e43e7a3f3949
-=======
->>>>>>> 9782ec403c62ef4c29eda758400b4c33d2033596

@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-#<<<<<<< HEAD
+
 # This file must be used with "source bin/activate" *from bash*
 # you cannot run it directly
 
@@ -69,9 +68,8 @@ fi
 if [ -n "${BASH:-}" -o -n "${ZSH_VERSION:-}" ] ; then
     hash -r 2> /dev/null
 fi
-=======
-=======
->>>>>>> 9782ec403c62ef4c29eda758400b4c33d2033596
+
+
 # This file must be used with "source bin/activate" *from bash*
 # you cannot run it directly
 
@@ -141,7 +139,3 @@ fi
 if [ -n "${BASH:-}" -o -n "${ZSH_VERSION:-}" ] ; then
     hash -r 2> /dev/null
 fi
-<<<<<<< HEAD
-#>>>>>>> 4de99520aaca5ce9858b6ccccf54e43e7a3f3949
-=======
->>>>>>> 9782ec403c62ef4c29eda758400b4c33d2033596
