@@ -1,5 +1,6 @@
 from django.contrib import admin
 from django.urls import path, include
+from posts import views
 """costory URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -19,9 +20,8 @@ Including another URLconf
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path(' ', include('login.urls')),
-    path(' ', include('allauth.urls')),
     path('posts/', include('posts.urls')),
+    path('accounts/', include('allauth.urls')),
     
 ]
 
