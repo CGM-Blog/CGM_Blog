@@ -19,6 +19,7 @@ class PostDetail(DetailView) :
     model = Post
 
 
+
 class PostCreate(CreateView, LoginRequiredMixin, UserPassesTestMixin) :
 	model = Post
 	fields = ['title', 'content', 'author']
