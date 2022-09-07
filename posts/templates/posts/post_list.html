@@ -6,13 +6,42 @@
     </head>
     <body>
         <h1>Blog</h1>
-        <a href="/posts/create_post">New Post</a>
+        
+            {% if user.is_authenticated %}
+            <!--
+                {% if user.socialaccount_set.all.0.get_avatar_url %}
+                        <img class="rounded-circle" width="25px"
+                             src="{{user.socialaccount_set.all.0.get_avatar_url}}">
+                {% else %}
+                        <img class="rounded-circle" width="25px"
+                             src="https://doitdjango.com/avatar/id/379/9ff1a6a6bc11ac6f/svg/{{user.email}}">
+                {% endif %}
+                -->
+                로그인한 이름 : {{user.username}}
+                <a role="button" href="/accounts/logout/">
+                    Log Out
+                </a>
+            {% else %}
+            <a role="button" href="/accounts/login/">
+                    Log In
+            </a>
+
+            {% endif %}
+
+        <br><br><br>
+        {% if user.is_authenticated %}
+            {% if user.is_staff or user.is_superuser %}   
+                <a href="/posts/create_post">New Post</a>
+            {% endif %}
+        {% endif %}
+        <br>
         {% for p in post_list %} 
         </hr>
-        <h2> <a href="{{ p.get_absoulte_url }}"> {{ p.title }} </h2>
+        <h2> <a href="{{ p.get_absolute_url }}">{{ p.title }}</a> </h2>
+        <h4> {{ p.author }} </h4>
         <h4> {{ p.dt_created }} </h4>
         <p> {{ p.content }} </p>
-        {% endfor %}.
+        {% endfor %}
         
     </body>
 </html>
