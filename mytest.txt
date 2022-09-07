@@ -1,0 +1,13 @@
+CGM Blog
+
+* superuser
+  ID : CGM
+  PW : @12345678
+
+* test
+  ID : test
+  PW : @87654321
+
+* google console
+  프로젝트 명 : CGMBlog
+  프로젝트 ID : cgmblog-361804
