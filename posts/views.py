@@ -19,6 +19,7 @@ class PostDetail(DetailView) :
     model = Post
 
 
+<<<<<<< HEAD
 class PostCreate(CreateView, LoginRequiredMixin, UserPassesTestMixin) :
 	model = Post
 	fields = ['title', 'content', 'author']
@@ -44,3 +45,5 @@ class PostUpdate(UpdateView, LoginRequiredMixin):
 			raise PermissionDenied # 예외 발생
 	
 	
+=======
+>>>>>>> 6dce91ecb4446d8b2594226e8c03fce84d43c8b7
