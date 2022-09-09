@@ -33,15 +33,15 @@
             {% if user.is_staff or user.is_superuser %}   
                 <a href="/posts/create_post">New Post</a>
             {% endif %}
-        {% endif %}
-        <br>
-        {% for p in post_list %} 
-        </hr>
-        <h2> <a href="{{ p.get_absolute_url }}">{{ p.title }}</a> </h2>
-        <h4> {{ p.author }} </h4>
-        <h4> {{ p.dt_created }} </h4>
-        <p> {{ p.content }} </p>
-        {% endfor %}
+            <br>
+            {% for p in post_list %} 
+            </hr>
+            <h2> <a href="{{ p.get_absolute_url }}"> 제목 : {{ p.title }} </a> </h2>
+            <h4> 작성자 ID : {{ p.author }} </h4>
+            <h4> 작성일 : {{ p.dt_created }} </h4>
+            <p> 내용 : {{ p.content }} </p>
+            {% endfor %}
         
+        {% endif %}
     </body>
 </html>

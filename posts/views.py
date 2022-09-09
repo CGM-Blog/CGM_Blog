@@ -45,7 +45,4 @@ class PostUpdate(UpdateView, LoginRequiredMixin):
 		else :
 			raise PermissionDenied # 예외 발생
 	
-<<<<<<< HEAD
-	
-=======
->>>>>>> ko
+
